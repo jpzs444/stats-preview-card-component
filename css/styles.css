@@ -37,7 +37,7 @@ body {
 
 .card {
     background-color: var(--dark-desaturated-blue);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -134,9 +134,44 @@ ul {
 
     .card-text {
         flex: 1 1 0%;
+        margin: 2rem 1rem 1rem;
     }
 
     .attribution {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .card {
+        max-width: 69.375rem;
+    }
+
+    .card-text > * {
+        margin-left: 4.375rem;
+        margin-right: 8.2rem;
+    }
+
+    .main-heading {
+        margin-top: 4.6875rem;
+        margin-left: 4.375rem;
+        margin-right: 4.375rem;
+        font-size: 2.25rem;
+    }
+
+    .main-paragraph {
+        margin-top: 1.5rem;
+        margin-bottom: 4.375rem;
+        line-height: 1.65;
+        margin-left: 4.375rem;
+        margin-right: 7rem;
+    }
+
+    ul {
+        margin-bottom: 3.75rem;
+    }
+
+    .stat-heading {
+        margin-bottom: 0;
     }
 }
