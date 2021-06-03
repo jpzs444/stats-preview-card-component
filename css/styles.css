@@ -18,15 +18,33 @@ html {
 }
 
 body {
+    background-color: var(--very-dark-blue);
     min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
     font-size: 0.9375rem;
+    color: var(--white);
+    text-align: center; 
+}
+
+.main-paragraph {
+    font-weight: 400;
+    color: var(--slightly-transparent-white-main);
+}
+
+.stat-heading {
+    font-weight: 400;
+    color: var(--slightly-transparent-white-stat);
 }
 
 .attribution { 
     font-size: 0.6875rem; 
-    text-align: center; 
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+span {
+    display: block;
 }
