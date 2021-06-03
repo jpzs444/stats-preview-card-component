@@ -111,3 +111,32 @@ ul {
         margin-bottom: 0.9rem;
     }
 }
+
+@media only screen and (min-width: 48em) {
+    body {
+        text-align: left;
+    }
+    
+    .container {
+        min-width: 100vw;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 45rem;
+        margin: 5.5rem 1.5rem;
+    }
+
+    .card-image {
+        flex: 1 1 0%;
+    }
+
+    .card-text {
+        flex: 1 1 0%;
+    }
+
+    .attribution {
+        text-align: center;
+    }
+}
