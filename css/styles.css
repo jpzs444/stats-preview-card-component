@@ -45,11 +45,17 @@ body {
     margin: 5.5rem 1.5rem 4rem;
 }
 
+.card-image {
+    background: var(--soft-violet);
+}
+
 .card-image img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
 }
 
 .card-text > * {
