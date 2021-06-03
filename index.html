@@ -15,19 +15,31 @@
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/jpzs444">jpzs444</a>.
-  </div>
+    <div class="container">
+        <main class="card">
+            <div class="card-image">
+                <picture>
+                    <source media="(min-width: 48em)" srcset="images/image-header-desktop.jpg">
+                    <img src="images/image-header-mobile.jpg">
+                </picture>
+            </div>
+            <div class="card-text">
+                <h1>Get insights that help your business grow.</h1>
+                <p>
+                    Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                    experience, and overall efficiency.                  
+                </p>
+                <ul class="card-stat">
+                    <li>10k+ <span class="stat-word">companies</span></li>
+                    <li>314 <span class="stat-word">templates</span></li>
+                    <li>12m+ <span class="stat-word">queries</span></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/jpzs444">jpzs444</a>.
+        </footer>
+    </div>
 </body>
 </html>
