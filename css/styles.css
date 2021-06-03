@@ -27,6 +27,14 @@ body {
     text-align: center; 
 }
 
+.card {
+    background-color: var(--dark-desaturated-blue);
+}
+
+.accent {
+    color: var(--soft-violet);
+}
+
 .main-paragraph {
     font-weight: 400;
     color: var(--slightly-transparent-white-main);
